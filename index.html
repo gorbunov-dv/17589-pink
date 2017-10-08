@@ -58,9 +58,10 @@
       <h1 class="visually-hidden">Приложение PINK</h1>
       <section class="features">
         <div class="features__promo">
-          <h2 class="features__header">Устали от серости мегаполиса?</h2>
-          <h2 class="features__header">Нам есть, что вам предложить!</h2>
+          <h2 class="features__title">Устали от серости мегаполиса?</h2>
+          <h2 class="features__title">Нам есть, что вам предложить!</h2>
         </div>
+
         <section class="features__info">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <article class="features__info features-item">
@@ -83,19 +84,66 @@
           <h3 class="reviews-item__title">Николай Петров</h3>
           <p class="reviews-item__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
         </article>
+
         <article class="reviews__info reviews-item reviews-item--hidden">
           <h3 class="reviews-item__title">Леся Крылова</h3>
           <p class="reviews-item__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
         </article>
+
         <article class="reviews__info reviews-item reviews-item--hidden">
           <h3 class="reviews-item__title">Василий Теркин</h3>
           <p class="reviews-item__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
         </article>
 
         <div class="reviews__paginator">
-          <label><input class="reviews__toggle-paginator" type="radio" name="toggle" checked></label>
+            <label><input class="reviews__toggle-paginator" type="radio" name="toggle" checked></label>
             <label><input class="reviews__toggle-paginator" type="radio" name="toggle"></label>
             <label><input class="reviews__toggle-paginator" type="radio" name="toggle"></label>
+        </div>
+      </section>
+
+      <section class="price">
+        <h2 class="visually-hidden">Тарифные опции нашего продукта</h2>
+        <table class="price__table">
+          <thead class="price__table-head">
+            <tr class="price__head-row">
+              <th class="price__head-cell">
+                <p class="price__name">База</p>
+                <p class="price__cost">1,99 USD</p>
+              </th>
+              <th class="price__head-cell">
+                <p class="price__name">Стандарт</p>
+                <p class="price__cost">3,99 USD</p>
+              </th>
+              <th class="price__head-cell">
+                <p class="price__name">Анлим</p>
+                <p class="price__cost">9,99 USD</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="price__table-body">
+            <tr class="price__body-row">
+              <td class="price__column">розовый фильтр</td>
+              <td class="price__column">розовый фильтр</td>
+              <td class="price__column">розовый фильтр</td>
+            </tr>
+            <tr class="price_body-row">
+              <td class="price__column">смайлики</td>
+              <td class="price__column">смайлики</td>
+              <td class="price__column">смайлики</td>
+            </tr>
+            <tr class="price_body-row">
+              <td class="price__column">комментарии</td>
+              <td class="price__column">комментарии</td>
+              <td class="price__column">комментарии</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="price__paginator">
+            <label><input class="price__toggle-paginator" type="radio" name="toggle"></label>
+            <label><input class="price__toggle-paginator" type="radio" name="toggle" checked></label>
+            <label><input class="price__toggle-paginator" type="radio" name="toggle"></label>
         </div>
       </section>
 
@@ -120,6 +168,5 @@
         <div class="map__container" id="map"></div>
       </section>
     </main>
-
   </body>
 </html>
