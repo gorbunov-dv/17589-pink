@@ -1,0 +1,17 @@
+.intro {
+  margin-top: 270px;
+  background: #1d2631;
+}
+
+.intro__list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: space-around;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.intro__description {
+  text-align: center;
+}
